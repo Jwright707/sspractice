@@ -1,0 +1,9 @@
+.background {
+  background: #30e8bf;
+  background: -webkit-linear-gradient(to right, #ff8235, #30e8bf);
+  background: linear-gradient(to right, #ff8235, #30e8bf);
+  overflow: auto;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+}

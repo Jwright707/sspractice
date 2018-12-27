@@ -1,0 +1,13 @@
+.toptitle {
+  font-size: 200%;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ml-auto {
+  font-size: 100%;
+}
+
+.item:hover {
+  text-decoration: underline;
+}
