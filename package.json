@@ -2,14 +2,19 @@
   "name": "react_node_practice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "web.js",
+  "engines": {
+    "node": "10.13.0"
+  },
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
-  "keywords": [],
+  "keywords": [
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
